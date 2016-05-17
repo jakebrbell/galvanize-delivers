@@ -1,0 +1,22 @@
+.hero img {
+  position: absolute;
+}
+.hero {
+  height: 520px;
+}
+
+.valign.center {
+  width: 100%;
+  font-weight: bold;
+  z-index: 1;
+  vertical-align: middle;
+  margin-top: 200px;
+}
+
+h5 {
+  display: inline-block;
+}
+
+i {
+  vertical-align: bottom;
+}
