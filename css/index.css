@@ -15,8 +15,8 @@ i {
   vertical-align: bottom;
 }
 
-.card-content h6 {
-  font-size: 19px;
+.card-title {
+  font-size: 19px !important;
   font-weight: 300;
 }
 
