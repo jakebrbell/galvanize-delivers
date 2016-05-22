@@ -22,12 +22,26 @@
 
     var total = newSubtotal + tax;
     $('.total').text('$' + total.toFixed(2));
-
   });
+
+  $('.btn-large').on('click', function() {
+
+
+    if ($('tbody').children('tr').length === 0) {
+      Materialize.toast('Please make a selection', 3000);
+    }
+    else if ($('#name').val() === '') {
+      Materialize.toast('Please enter a name', 3000);
+    } else if ($('#phone').val() === '') {
+      Materialize.toast('Please enter a phone number', 3000);
+    } else if ($('#address').val() === '') {
+      Materialize.toast('Please enter an address', 3000);
+    } else {
+      $('tbody').children().remove();
+      $('.subtotal, .tax, .total').text('$0.00')
+      $('#name, #phone, #address').val('');
+      Materialize.toast('Your order was successfully submitted', 3000);
+    }
+  });
+
 })();
-
-
-
-// Subtotal	$43.96
-// Tax	$4.40
-// Total	$48.36
