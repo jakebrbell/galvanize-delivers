@@ -1,6 +1,10 @@
+/*
+  ========================================
+  Home page styles
+  ========================================
+*/
+
 .hero {
-  background-image: url(../img/hero.jpg);
-  background-size: cover;
   height: 400px;
   display:flex;
   flex-direction: column;
@@ -8,18 +12,105 @@
   justify-content: center;
   align-content: flex-start;
   align-items: center;
-  margin-bottom: 40px !important;
 }
-
+.parallax-container {
+  height: 400px;
+}
+.second-parallax {
+  height: 250px;
+}
+.tagline {
+  text-shadow: 3px 4px 5px #000;
+  font-weight: bolder;
+  font-size: 4.5em;
+}
+.main-copy {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 i {
   vertical-align: bottom;
 }
 
+/*
+  ========================================
+  Order page styles
+  ========================================
+*/
+
 .card-title {
   font-size: 19px !important;
   font-weight: 300;
+  line-height: 30px !important;
+}
+.card-content p {
+  margin-top: 10px !important;
+}
+.order {
+  margin-right: 15px;
+}
+table.striped > tbody > tr:nth-child(odd) {
+    background-color: #EEE;
 }
 
+/*
+  ========================================
+  Header styles
+  ========================================
+*/
+
+.brand-logo {
+  margin-left: 15px;
+}
+
+/*
+  ========================================
+  Footer styles
+  ========================================
+*/
+
+.footer-links li {
+  font-size: 20px;
+}
 footer {
-  margin-top: 40px !important;
+  margin-top: 0 !important;
+}
+.motto {
+  font-size: 18px;
+}
+
+/*
+  ========================================
+  Custom color pallette styles
+  ========================================
+*/
+.russett {
+  background-color: #725752 !important;
+}
+.russett-text {
+  color: #725752 !important;
+}
+.stack {
+  background-color: #878E88 !important;
+}
+.stack-text {
+  color: #878E88 !important;
+}
+.shadow-green {
+  background-color: #96C0B7 !important;
+}
+.shadow-green-text {
+  color: #96C0B7 !important;
+}
+.tana {
+  background-color: #D4DFC7 !important;
+}
+.tana-text {
+  color: #D4DFC7 !important;
+}
+.pipi {
+  background-color: #FEF6C9 !important;
+}
+.pipi-text {
+  color: #FEF6C9 !important;
 }

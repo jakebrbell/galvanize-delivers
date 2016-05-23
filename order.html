@@ -2,12 +2,11 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Galvanize Delivers</title>
-
+  <title>The Piebird</title>
   <!--Import Google Icon Font-->
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen"/>
 
   <link rel="stylesheet" href="css/index.css" media="screen">
 
@@ -15,21 +14,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
-<body>
+<body class="tana">
   <div class="navbar-fixed">
     <nav>
-      <div class="nav-wrapper blue darken-3">
-        <a href="index.html" class="brand-logo">Galvanize Delivers</a>
+      <div class="nav-wrapper russett">
+        <a href="index.html" class="brand-logo grey-text text-lighten-3">The Piebird</a>
         <a href="#" data-activates="menu" class="button-collapse">
-          <i class="material-icons">menu</i>
+          <i class="material-icons grey-text text-lighten-3">menu</i>
         </a>
 
         <ul class="right hide-on-med-and-down">
-          <li class="active"><a href="order.html">Order Delivery</a></li>
+          <li><a href="index.html" class="grey-text text-lighten-3">Home</a></li>
+          <li class="active order"><a href="order.html" class="grey-text text-lighten-3">Order</a></li>
         </ul>
 
-        <ul class="side-nav" id="menu">
-          <li class="active"><a href="order.html">Order Delivery</a></li>
+        <ul class="side-nav russett" id="menu">
+          <li><a href="index.html" class="grey-text text-lighten-3">Home</a></li>
+          <li><a href="order.html" class="grey-text text-lighten-3">Order</a></li>
         </ul>
       </div>
     </nav>
@@ -39,20 +40,20 @@
     <div class="row">
       <div class="col s12 m7">
 
-        <h4>Menu</h4>
+        <h4 class="stack-text">Menu</h4>
 
         <div class="row">
           <div class="col s12 m6">
             <div class="card">
               <div class="card-image">
-                <img src="img/burger.jpg">
+                <img src="img/apple.jpg" alt="Apple Pie">
               </div>
-              <div class="card-content">
-                <span class="card-title">Royale with Cheese</span>
+              <div class="card-content stack">
+                <span class="card-title">Grandma's Apple Pie</span>
                 <p>$8.99</p>
               </div>
-              <div class="card-action">
-                <a href="#" class="pink-text text-accent-2 add-to-order">Add to Order</a>
+              <div class="card-action shadow-green center-align">
+                <a href="#" class="grey-text text-lighten-3 add-to-order">Add to Order</a>
               </div>
             </div>
           </div>
@@ -60,14 +61,14 @@
           <div class="col s12 m6">
             <div class="card">
               <div class="card-image">
-                <img src="img/pizza.jpg">
+                <img src="img/blueberry.jpg" alt="Blueberry Pie">
               </div>
-              <div class="card-content">
-                <span class="card-title">Arugula Pie</span>
+              <div class="card-content stack">
+                <span class="card-title">Classic Blueberry Pie</span>
                 <p>$11.99</p>
               </div>
-              <div class="card-action">
-                <a href="#" class="pink-text text-accent-2 add-to-order">Add to Order</a>
+              <div class="card-action shadow-green center-align">
+                <a href="#" class="grey-text text-lighten-3 add-to-order">Add to Order</a>
               </div>
             </div>
           </div>
@@ -77,14 +78,14 @@
           <div class="col s12 m6">
             <div class="card">
               <div class="card-image">
-                <img src="img/ribs.jpg">
+                <img src="img/chocolate.jpg" alt="Chocolate Pie">
               </div>
-              <div class="card-content">
-                <span class="card-title">Smoked Swine</span>
+              <div class="card-content stack">
+                <span class="card-title">Devilishly Delicious Chocolate Pie</span>
                 <p>$14.99</p>
               </div>
-              <div class="card-action">
-                <a href="#" class="pink-text text-accent-2 add-to-order">Add to Order</a>
+              <div class="card-action shadow-green center-align">
+                <a href="#" class="grey-text text-lighten-3 add-to-order">Add to Order</a>
               </div>
             </div>
           </div>
@@ -92,14 +93,14 @@
           <div class="col s12 m6">
             <div class="card">
               <div class="card-image">
-                <img src="img/ice_cream.jpg">
+                <img src="img/lemon.jpg" alt="Lemon Meringue Pie">
               </div>
-              <div class="card-content">
-                <span class="card-title">Ice Cream Biscuit</span>
+              <div class="card-content stack">
+                <span class="card-title">Zesty and Creamy Lemon Meringue Pie</span>
                 <p>$7.99</p>
               </div>
-              <div class="card-action">
-                <a href="#" class="pink-text text-accent-2 add-to-order">Add to Order</a>
+              <div class="card-action shadow-green center-align">
+                <a href="#" class="grey-text text-lighten-3 add-to-order">Add to Order</a>
               </div>
             </div>
           </div>
@@ -107,17 +108,15 @@
       </div>
 
       <div class="col s12 m5">
-
-        <h4>Order</h4>
+        <h4 class="stack-text">Order</h4>
         <div class="row">
           <table class="striped">
             <thead>
               <tr>
-                  <th colspan="2">Item</th>
-                  <th class="right-align">Price</th>
+                <th colspan="2">Item</th>
+                <th class="right-align">Price</th>
               </tr>
             </thead>
-
             <tbody>
             </tbody>
             <tfoot>
@@ -139,27 +138,27 @@
             <form class="col s12">
               <div class="row">
                 <div class="input-field col s12">
-                  <i class="material-icons prefix pink-text text-accent-2">account_circle</i>
+                  <i class="material-icons prefix stack-text">account_circle</i>
                   <input id="name" type="text" class="validate">
                   <label for="name" data-error="required">Name</label>
                 </div>
               </div>
               <div class="row">
                 <div class="input-field col s12">
-                  <i class="material-icons prefix pink-text text-accent-2">call</i>
+                  <i class="material-icons prefix stack-text">call</i>
                   <input id="phone" type="tel" class="validate">
                   <label for="phone" data-error="required">Phone number</label>
                 </div>
               </div>
               <div class="row">
                 <div class="input-field col s12">
-                  <i class="material-icons prefix pink-text text-accent-2">business</i>
+                  <i class="material-icons prefix stack-text">business</i>
                   <textarea id="address" class="materialize-textarea validate"></textarea>
                   <label for="address" data-error="required">Address</label>
                 </div>
               </div>
               <div class="center">
-                <a class="waves-effect waves-light btn-large pink accent-2">
+                <a class="waves-effect waves-light btn-large stack grey-text text-lighten-3">
                   PLACE ORDER
                 </a>
               </div>
@@ -170,19 +169,19 @@
     </div>
   </div>
 
-  <footer class="page-footer blue darken-3">
+  <footer class="page-footer russett">
     <div class="container">
       <div class="row">
         <div class="col s12 m6">
-          <h5 class="white-text">Galvanize Delivers</h5>
-          <p class="grey-text text-lighten-4">Fine Dining, Delivered</p>
+          <h5 class="grey-text text-lighten-4">The Piebird</h5>
+          <p class="grey-text text-lighten-4 motto">Homemade. Delivered.</p>
         </div>
         <div class="col s12 m4 offset-m2">
-          <ul>
+          <ul class="footer-links">
             <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
             <li>
               <a class="grey-text text-lighten-3" href="order.html">
-                Order Delivery
+                Order
               </a>
             </li>
           </ul>
@@ -193,13 +192,12 @@
       <div class="container">
         <div class="row">
           <div class="col s12">
-            &copy; 2016 Galvanize Delivers
+            &copy; 2016 The Piebird
           </div>
         </div>
       </div>
     </div>
   </footer>
-
 
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
